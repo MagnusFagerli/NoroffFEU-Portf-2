@@ -1,0 +1,33 @@
+.navlink {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.nav {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.navbar-nav {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.navtext {
+    font-size: 30px;
+}
+
+.navbar-brand {
+    background-color: black;
+    padding: 5px;
+    border: 1px solid black;
+    text-decoration: underline;
+}
+
+.navtext.navbar-brand {
+    color: white;  
+    padding: 10px;
+}
