@@ -19,7 +19,7 @@ function Navigation() {
       <Router>
         <Navbar className="nav" variant="light" expand="lg" expanded={expanded}>
           <NavLink className="navlink" to="/">
-            <Navbar.Brand className="navtext">Magnus</Navbar.Brand>
+            <Navbar.Brand className="navtext">Fagerli</Navbar.Brand>
           </NavLink>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
