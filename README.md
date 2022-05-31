@@ -1,7 +1,5 @@
 # Portfolio 2, 2022
 
-A simple overview of the use/purpose of the project.
-
 ## Description
 
 Portfolio page for the last project of Noroff's Front End Developer studies.
@@ -12,8 +10,6 @@ Containts the following:
 - ReadMe files added or updated for all three sumbissions.
 
 ## Built With
-
-You can list a the tech stack that you've used over here
 
 - [React.js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com)
