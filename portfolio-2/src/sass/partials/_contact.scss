@@ -1,0 +1,26 @@
+.form-error {
+	background: #fbb;
+	color: darkred;
+	padding: 0.5rem 1rem;
+	font-size: 18px;
+}
+
+Form {
+    
+}
+
+.primary {
+    color: black;
+    background-color: #13e482;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    Form {
+        width: 550px;
+        margin: auto;
+    }
+}
