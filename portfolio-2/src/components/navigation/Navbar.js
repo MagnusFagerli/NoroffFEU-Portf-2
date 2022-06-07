@@ -10,7 +10,6 @@ import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Home from "../home/Home";
 import Projects from "../portfolio/Projects";
-import Contact from "../contact/Contact";
 
 function Navigation() {
   const [expanded, setExpanded] = useState(false);
@@ -41,13 +40,6 @@ function Navigation() {
               >
                 Projects
               </NavLink>
-              <NavLink
-                to="/contact"
-                className="nav-link"
-                onClick={() => setExpanded(false)}
-              >
-                Contact
-              </NavLink>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -55,7 +47,6 @@ function Navigation() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
           </Routes>
         </Container>
       </Router>

@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Header from "../headers/Header";
+import JSCA from "../../images/jscaimage.png";
 import Cards from "./cards/Cards";
 import Car from "../../images/test.jpeg";
 
@@ -10,10 +11,10 @@ function Projects() {
       <Header>Projects</Header>
       <Cards
         header="JS Frameworks 2 CA"
-        image={Car}
+        image={JSCA}
         alt="car"
         p={"JavaScript Frameworks 2 Course Assignment. "}
-        href="https://www.yr.no"
+        href="https://github.com/MagnusFagerli/js-frameworks-course-assignment-MagnusFagerli-main"
       />
       <div className="linkButton">
         <Button
