@@ -19,7 +19,7 @@ function Projects() {
       <div className="linkButton">
         <Button
           variant="primary"
-          href="https://www.tek.no"
+          href="https://chic-meringue-3ba859.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
