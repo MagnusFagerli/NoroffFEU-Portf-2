@@ -46,7 +46,7 @@ function Projects() {
         p={
           "Project Exam of 2022. Hotel booking website with JWT tokens for admin login, add/edit accommodations for the WordPress CMS."
         }
-        href="https://www.yr.no"
+        href="https://github.com/Noroff-FEU-Assignments/project-exam-2-MagnusFagerli"
       />
       <div className="linkButton">
         <Button
