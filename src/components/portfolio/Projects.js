@@ -14,7 +14,9 @@ function Projects() {
         header="JS Frameworks 2 CA"
         image={JSCA}
         alt="car"
-        p={"JavaScript Frameworks 2 Course Assignment. "}
+        p={
+          "JavaScript Frameworks 2 Course Assignment. Project with API calls and params. "
+        }
         href="https://github.com/MagnusFagerli/js-frameworks-course-assignment-MagnusFagerli-main"
       />
       <div className="linkButton">

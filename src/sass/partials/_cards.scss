@@ -29,9 +29,11 @@
 .links {
     display: flex;
     justify-content: space-around;
-    margin: auto;
     font-size: 30px;
-    margin: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 140px;
+    border: 2px solid black;
 }
 
 .links a {
@@ -57,6 +59,11 @@
 @media screen and (min-width: 768px) {
     .homeCardsContainer {
         margin: auto;    
+    }
+
+    .links {
+        margin: auto;
+        margin-bottom: 20px;
     }
 
     .cards {
